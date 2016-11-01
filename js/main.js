@@ -1,13 +1,7 @@
 // Youtube background video
 jQuery( document ).ready( function( $ ) {
 
-	$( '.jumbotron__video' ).YTPlayer({
-		fitToBackground: true,
-		videoId: 'jInk8-L6QnY', 
-		playerVars: {
-			playbackRate: 0.25
-		}
-	});
+	$( '.jumbotron__video' )[0].playbackRate = .75;
 
 });
 
