@@ -98,6 +98,10 @@ p {
     font-weight: 300;
 }
 
+a {
+    color: #0088CE;
+}
+
 .display-3, 
 .display-4 {
     font-family: Roboto, sans-serif;
@@ -113,12 +117,53 @@ p {
     background-color: #eceeef;
 }
 
+.btn-primary {
+    background-color: #0088CE;
+    border-color: #0088CE;
+}
 
+.btn-primary:hover {
+    background-color: #005582;
+    border-color: #005582;
+}
 
+.navbar-brand {
+    background-image: url( ../img/logo.png );
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    height: 50px;
+    width: 221px;
+}
 
+.navbar-nav .nav-link {
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
 
+.navbar-nav .btn {
+    margin-top: 6px;
+}
 
+.card {
+    border: none;
+}
 
+.card-image {
+    width: 100px;
+    height: auto;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightgray;
+    border-radius: 6px;
+    margin: 5px;
+}
 
 
 
