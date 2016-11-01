@@ -11,13 +11,17 @@
 				<!-- Place favicon.ico in the root directory -->
 
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+				<link rel="stylesheet" href="js/vendor/youtubebackground/style.css">
 				<link rel="stylesheet" href="css/main.css">
 				<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 		</head>
 		<body>
 				<nav class="navbar navbar-light">
-					<a class="navbar-brand" href="#">Destination Charlotte</a>
+					<h1 class="navbar-brand">Destination Charlotte</h1>
 					<ul class="nav navbar-nav  float-xs-right">
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#what-to-expect">What To Expect</a>
 						</li>
@@ -29,19 +33,30 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="jumbotron">
+				
+				<div class="jumbotron  py-8  text-white">
+					<div class="jumbotron__video"></div>
 					<div class="container  text-xs-center">
 						<div class="row">
 							<div class="col-xs-12 col-lg-8 offset-lg-2">
-								<h1 class="display-3">Branding Charlotte as a Destination City</h1>						
+								<h2 class="display-3">Branding Charlotte as a Destination City</h1>
+								<hr class="my-2">
+								<p class="lead  mb-2">Don't miss out on being part of the group that sets Charlotte apart.</p>
+									<a class="btn btn-primary btn-lg" href="#register" role="button">Register Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="about" class="bg-faded  py-4  text-xs-center">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-lg-8 offset-lg-2">
+								<h2 class="display-4  mb-2">About This Event</h2>
 								<p class="lead">This event is centered around making Charlotte into a Destination &amp; Smart City. There will be experts and leaders there to outline what a destination city is and how it economically impacts everyone in it.</p>
 
-								<p class="lead">Businesses will have the opportunity to hear from experts in marketing and how to use events and social media to attract more visitors and customers.  There will also be presentations of new technology for small businesses and our city.</p>
-								<hr class="my-2">
-								<p>Don't miss out on being part of the group that sets Charlotte apart.</p>
-								<p class="lead">
-									<a class="btn btn-primary btn-lg" href="#register" role="button">Register Now</a>
-								</p>
+								<p class="lead mb-2">Businesses will have the opportunity to hear from experts in marketing and how to use events and social media to attract more visitors and customers.  There will also be presentations of new technology for small businesses and our city.</p>
+								<a href="#register" class="btn btn-lg btn-primary">Register</a>
 							</div>
 						</div>
 					</div>
@@ -73,7 +88,7 @@
 					</div>
 				</div>
 
-				<div class="bg-faded  py-4">
+				<div id="industries" class="bg-faded  py-4">
 					<div class="container  text-xs-center">
 						<h2 class="display-4 mb-2">Industries</h2>
 						<ul class="list-inline">
@@ -108,6 +123,7 @@
 				<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 				<script src="js/plugins.js"></script>
+				<script src="js/vendor/youtubebackground/jquery.youtubebackground.js"></script>
 				<script src="js/main.js"></script>
 
 				<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

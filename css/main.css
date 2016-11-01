@@ -113,6 +113,16 @@ a {
     padding-bottom: 4rem;
 }
 
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.py-8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
 .bg-faded {
     background-color: #eceeef;
 }
@@ -136,6 +146,7 @@ a {
     white-space: nowrap;
     height: 50px;
     width: 221px;
+    margin-bottom: 0;
 }
 
 .navbar-nav .nav-link {
@@ -146,6 +157,40 @@ a {
 
 .navbar-nav .btn {
     margin-top: 6px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba( 55, 55, 55, 0.5);
+}
+
+.jumbotron > .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron__video {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.jumbotron .lead {
+    font-size: 1.5rem;
 }
 
 .card {
